@@ -7,8 +7,10 @@ File needs reformatting
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 
-for key in STATE_NAMES:
-    print("{:>10s} is {}").format(STATE_NAMES[key], STATE_NAMES[key])
+names_tuple = STATE_NAMES.items()
+
+for item in names_tuple:
+    print("{:<5s} is {}".format(item[0], item[1]))
 
 state = input("Enter short state: ").upper()
 while state != "":

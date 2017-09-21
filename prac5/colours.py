@@ -1,7 +1,6 @@
 """
 CP1404/CP5632 Practical
-State names in a dictionary
-File needs reformatting
+State colours in a dictionary
 """
 
 COLOUR_NAMES = {"DARK ORCHID": "#9932cc", "LEMON CHIFFON": "#fffacd", "OLIVE DRAB": "#6b8e23", "PAPAYA WHIP": "#ffefd5",

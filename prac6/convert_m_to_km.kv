@@ -1,0 +1,27 @@
+GridLayout:
+    rows: 3
+    BoxLayout:
+        orientation: 'horizontal'
+        TextInput:
+            id: input_miles
+            text: '34.0'
+            font_size: 48
+            on_text: app.handle_conversion()
+
+        BoxLayout:
+            orientation: 'vertical'
+            Button:
+                text: 'Up'
+                on_press: app.handle_increment_up()
+            Button:
+                text: 'Down'
+                on_press: app.handle_increment_down()
+
+    Label:
+        text: 'Convert m to km'
+
+    Label:
+        id: output_label
+        font_size: 48
+        text: ''
+        color: (1, 1, 0, 1)

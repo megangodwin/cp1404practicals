@@ -26,6 +26,6 @@ def calculate_result(score):
         return(passable)
     elif score < 50:
         return(bad)
-    return(result)
+
 
 main()

@@ -2,8 +2,6 @@ from kivy.app import App
 from kivy.lang import Builder
 
 
-#TODO: get greet to work
-
 class BoxLayoutDemo(App):
     def build(self):
         self.title = "Box Layout Demo"

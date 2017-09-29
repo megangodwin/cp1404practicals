@@ -1,5 +1,5 @@
 """
-CP1404 Practical 07 
+CP1404 Practical 07 - Guitar Class File 
 Megan Godwin
 """
 
@@ -21,3 +21,8 @@ class Guitar:
         return age
 
     def is_vintage(self):
+        age = self.get_age()
+        if age >= 50:
+            return True
+        else:
+            return False

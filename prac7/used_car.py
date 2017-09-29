@@ -7,16 +7,12 @@ from cp1404practicals.prac7.car import Car
 def main():
     """Demo test code to show how to use car class."""
     my_car = Car(180)
-    limo = Car(100)
+    limo = Car('Limo', 100)
 
     limo.add_fuel(20)
-
-    print("Limo's fuel is {}".format(limo.fuel))
-
     limo.drive(115)
 
-    print("Limo's odometer reads {}".format(limo.odometer))
-
+    print(limo)
 
     #my_car.drive(30)
     #print("fuel =", my_car.fuel)

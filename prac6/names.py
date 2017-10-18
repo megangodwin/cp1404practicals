@@ -5,7 +5,6 @@ Megan Godwin
 Modified from dynamic_widgets
 """
 
-#TODO:
 
 from kivy.app import App
 from kivy.app import Builder
